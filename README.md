@@ -1,32 +1,23 @@
-# SPCXDOGE Meme Website V2
+# SPCXDOGE Meme Website V3
 
-English meme-style official website inspired by the final SPCXDOGE logo/header visual direction.
+A full English meme-style landing page for SPCXDOGE.
 
 ## Sections
 
+- Navbar
 - Hero
 - Story
 - Token Details
 - Tax & Rewards
+- Fan Art
 - Live Data
 - Why Hold LP
 - Genesis Shareholder
 - Roadmap
-- Fan Art
-- Links
+- Community
 - Enter DApp
 
-## Animations
-
-- Twinkling star background
-- Breathing mascot
-- Rotating moon
-- Floating WOW/LFG/GM bubbles
-- Rocket motion
-- Infinite fan-art carousel
-- Button hover effects
-
-## Local Run
+## Run locally
 
 ```bash
 npm install
@@ -39,36 +30,22 @@ Open:
 http://localhost:3000
 ```
 
-## Build
+## Deploy to Vercel
 
-```bash
-npm run build
-npm run start
-```
+1. Upload this project to GitHub.
+2. Create a new Vercel project.
+3. Select the GitHub repository.
+4. Keep default Next.js settings.
+5. Click Deploy.
 
-## Deploy
+## Replace links
 
-Recommended: Vercel.
+Edit `components/Community.tsx` and replace `#` with your actual Twitter, Telegram, BscScan, DexScreener, PancakeSwap, and DApp URLs.
 
-1. Upload this folder to GitHub.
-2. Import the repo in Vercel.
-3. Framework: Next.js.
-4. Deploy.
+## Replace images
 
-## Replace Images
+- `public/assets/logo.png`
+- `public/assets/header.png`
+- `public/fanart/*`
 
-Main logo:
-
-```text
-public/logo.png
-```
-
-Fan art images:
-
-```text
-public/memes/
-```
-
-## Notes
-
-This is a front-end website only. DApp links are placeholders and can be connected later.
+Keep filenames the same if you do not want to edit code.
