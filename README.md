@@ -49,3 +49,8 @@ Edit `components/Community.tsx` and replace `#` with your actual Twitter, Telegr
 - `public/fanart/*`
 
 Keep filenames the same if you do not want to edit code.
+
+## V3.1 Update
+- Updated the whole website typography to comic meme style.
+- Added Google fonts: Bangers for big titles, Luckiest Guy for nav/buttons/body.
+- Improved title stroke/shadow to match SPCXDOGE yellow-black header style.

@@ -7,11 +7,11 @@ export default function Hero() {
       <div className="absolute -right-28 bottom-4 h-96 w-96 rounded-full bg-memeGold/20 blur-3xl" />
       <div className="mx-auto grid min-h-[82vh] max-w-7xl items-center gap-10 px-4 py-12 md:grid-cols-2 md:px-8">
         <div className="relative z-10">
-          <div className="mb-5 inline-flex rotate-[-2deg] rounded-full border-2 border-memeYellow bg-black px-4 py-2 font-black text-memeYellow shadow-glow">
+          <div className="meme-font mb-5 inline-flex rotate-[-2deg] rounded-full border-2 border-memeYellow bg-black px-4 py-2 text-memeYellow shadow-glow">
             DOGE ENERGY · X POWER · TO THE MOON
           </div>
-          <h1 className="comic-title text-6xl leading-none text-memeYellow md:text-8xl lg:text-9xl">SPCXDOGE</h1>
-          <p className="black-stroke mt-4 text-3xl font-black italic text-white md:text-5xl">THE X DOGE</p>
+          <h1 className="comic-title text-6xl leading-none text-memeYellow md:text-8xl lg:text-[8.5rem]">SPCXDOGE</h1>
+          <p className="black-stroke mt-4 text-3xl italic text-white md:text-5xl">THE X DOGE</p>
           <p className="mt-6 max-w-xl text-lg font-bold text-white/80 md:text-xl">
             A pure meme born from DOGE energy and powered by X value. No boring finance. Just community, memes, and moon energy.
           </p>

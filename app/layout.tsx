@@ -1,5 +1,20 @@
 import type { Metadata } from 'next';
+import { Bangers, Luckiest_Guy } from 'next/font/google';
 import './globals.css';
+
+const bangers = Bangers({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-bangers',
+  display: 'swap'
+});
+
+const luckiest = Luckiest_Guy({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-luckiest',
+  display: 'swap'
+});
 
 export const metadata: Metadata = {
   title: 'SPCXDOGE | The X Doge',
@@ -15,7 +30,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${bangers.variable} ${luckiest.variable}`}>{children}</body>
     </html>
   );
 }
